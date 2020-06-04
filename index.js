@@ -6,7 +6,7 @@ function takeANumber(line, array) {
 
 function nowServing(line) {
   let array = line.shift()
-  if (array > line.length) {
+  if (array > line) {
     return `Currently serving ${array}.`
   } else {
     return `There is nobody waiting to be served!`
