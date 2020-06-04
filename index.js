@@ -12,3 +12,15 @@ function nowServing(line) {
     return `There is nobody waiting to be served!`
   }
 }
+
+function currentLine(line) {
+  array = []
+  for (var i = 0; i < line.length; i++) {
+    array.push(`${i}. ${line}`)
+  }
+  if (array > line) {
+    return `The line is currently: ${array}`
+  } else {
+    return 'The line is currently empty.'
+  }
+}
