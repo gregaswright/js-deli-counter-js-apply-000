@@ -19,7 +19,7 @@ function currentLine(line) {
     array.push(`${i + 1}. ${line[i]}`)
   }
   if (line.length > 0) {
-    return `The line is currently: ${array}`
+    return `The line is currently:${array}`
   } else {
     return 'The line is currently empty.'
   }
