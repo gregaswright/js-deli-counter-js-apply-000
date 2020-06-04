@@ -14,7 +14,7 @@ function nowServing(line) {
 }
 
 function currentLine(line) {
-  array = []
+  let array = []
   for (var i = 0; i < line.length; i++) {
     array.push(`${i + 1}. ${line}`)
   }
